@@ -13,7 +13,7 @@ export const Main = () => {
   const [isLoading, setIsLoading] = useState(false)
   const [pagesCount, setPagesCount] = useState(0)
   const [order, setOrder] = useState('desc')
-  
+
   const [
     usersList,
     setUsersList,
@@ -91,9 +91,9 @@ export const Main = () => {
       </S.SearchBlock>
 
       {isLoading ? (
-          <h1 style={{ textAlign: 'center', marginTop: '50px' }}>
+        <h1 style={{ textAlign: 'center', marginTop: '50px' }}>
           Идёт загрузка...
-      </h1>
+        </h1>
       ) : error ? (
         <Error>{error}</Error>
       ) : !usersList.length > 0 ? (

@@ -1,5 +1,5 @@
 import { MyPaginate } from './Pagination.styles'
-import {PaginationBlock } from '../../App.styles'
+import { PaginationBlock } from '../../App.styles'
 export const Pagination = ({
   onNextPageClick,
   onPrevPageClick,
@@ -21,10 +21,10 @@ export const Pagination = ({
         breakClassName={'break-me'}
         pageCount={nav.total}
         marginPagesDisplayed={2}
-        onPageChange={ onNextPageClick}
+        onPageChange={onNextPageClick}
         containerClassName={'pagination'}
         activeClassName={'active'}
       />
-      </PaginationBlock>
+    </PaginationBlock>
   )
 }

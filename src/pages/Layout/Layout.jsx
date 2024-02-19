@@ -1,7 +1,12 @@
 import { Outlet } from 'react-router-dom'
 import { useState } from 'react'
 import { Context } from '../../Context'
-import { Container,Wrapper , GlobalStyles, MainContainer } from '../../App.styles'
+import {
+  Container,
+  Wrapper,
+  GlobalStyles,
+  MainContainer,
+} from '../../App.styles'
 
 export const Layout = () => {
   const [usersList, setUsersList] = useState([])

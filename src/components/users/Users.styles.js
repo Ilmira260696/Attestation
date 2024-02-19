@@ -48,7 +48,6 @@ export const CardImgUser = styled.img`
   display: block;
   object-fit: cover;
 `
-
 export const CardTitle = styled.h3`
   font-size: 22px;
   line-height: 120%;
@@ -59,7 +58,6 @@ export const CardTitle = styled.h3`
   text-overflow: ellipsis;
   transition: color 0.3s ease-out;
 `
-
 export const CardDetails = styled.p`
   color:#44944a;
   font-size: 14px;

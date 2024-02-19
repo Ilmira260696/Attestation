@@ -7,9 +7,9 @@ export const MyPaginate = styled(ReactPaginate).attrs({
   display: flex;
   list-style-type: none;
   max-width: 700px;
-  padding-top:50px;
+  padding-top: 50px;
   justify-content: space-between;
- 
+
   @media (max-width: 500px) {
     padding: 0 5px;
   }

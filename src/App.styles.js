@@ -50,18 +50,18 @@ ul li {
   list-style: none;
 }
 `
-export const PaginationBlock = styled.div `
-margin-left:220px;
+export const PaginationBlock = styled.div`
+  margin-left: 220px;
 `
 export const Container = styled.div`
   width: 100%;
   margin: 0 auto;
   background-color: #ffffff;
 `
-export const Wrapper = styled.div `
-background-color: #44944a;
-margin: 0 auto;
-padding: 20px 10px;
+export const Wrapper = styled.div`
+  background-color: #44944a;
+  margin: 0 auto;
+  padding: 20px 10px;
 `
 export const MainContainer = styled.div`
   max-width: 1200px;
